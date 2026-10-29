@@ -1,17 +1,22 @@
 Package: qPCRtools
 Authors@R: person('Xiang', 'LI', email = 'lixiang117423@gmail.com', role = c('cre', 'aut'))
-Version: 1.0.1
+Version: 1.0.2
 Title: Tools for qPCR
-Description: PKG_DESC.
+Description: Provides tools for quantitative PCR (qPCR) data analysis,
+    including standard curve calculation with amplification efficiency,
+    relative expression calculation by the 2-'dCt', 2-'ddCt',
+    standard curve and 'RqPCR' methods, and RNA volume calculation for
+    reverse transcription.
 URL: https://github.com/lixiang117423/qPCRtools
 BugReports: https://github.com/lixiang117423/qPCRtools/issues
 License: MIT + file LICENSE
+Encoding: UTF-8
 Imports: broom, dplyr, ggplot2, ggpmisc, ggthemes, kableExtra,
         magrittr, multcomp, rstatix, stats, tibble, tidyr
-RoxygenNote: 7.2.3
+Config/roxygen2/version: 8.1.0
 NeedsCompilation: no
-Packaged: 2023-11-02 09:16:53 UTC; lixia
+Packaged: 2026-10-29 05:29:15 UTC; lixiang
 Author: Xiang LI [cre, aut]
 Maintainer: Xiang LI <lixiang117423@gmail.com>
 Repository: CRAN
-Date/Publication: 2023-11-02 13:10:05 UTC
+Date/Publication: 2026-10-29 05:50:02 UTC
